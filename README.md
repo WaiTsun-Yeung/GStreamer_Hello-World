@@ -46,3 +46,8 @@ cmake --install . #Run this line with administrative rights.
 Navigate to your default installation directory (e.g., C:\Program Files),
 the executable can be found installed at 
 ${INSTALL_DIR}/gstreamer_hello-world/bin/gstreamer_hello-world.exe
+
+## LICENSE
+
+This project is licensed under the MIT License - see the
+[LICENSE](LICENSE) file.

@@ -15,6 +15,9 @@ pkg_search_module(gstreamer-sdp REQUIRED IMPORTED_TARGET gstreamer-sdp-1.0)
 pkg_search_module(gstreamer-app REQUIRED IMPORTED_TARGET gstreamer-app-1.0)
 pkg_search_module(gstreamer-video REQUIRED IMPORTED_TARGET gstreamer-video-1.0)
 
+# TODO: Magick++ library: C:\Repositories\ImageMagick-Windows\Output\lib\CORE_RL_Magick++_.lib
+# TODO: Try this: https://stackoverflow.com/a/37776099/12483740
+
 # Add the executable
 add_executable(gstreamer_hello-world apps/main.cpp)
 
